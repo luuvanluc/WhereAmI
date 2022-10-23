@@ -50,11 +50,11 @@
 
     <!-- If you choose to define initial pose here -->
     <param name="initial_pose_x" value="-1"/>
-    <param name="initial_pose_y" value="-1"/>
-    <param name="initial_pose_a" value="3.14"/>
-    <param name="initial_cov_xx" value="1"/>
-    <param name="initial_cov_yy" value="1"/>
-    <param name="initial_cov_aa" value="1.047"/>
+    <param name="initial_pose_y" value="1"/>
+    <param name="initial_pose_a" value="1.57"/>
+    <param name="initial_cov_xx" value="0.5"/>
+    <param name="initial_cov_yy" value="0.5"/>
+    <param name="initial_cov_aa" value="0.26"/>
 
     <!-- Tuning parameters -->
     <param name="min_particles" value="100"/>
